@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "login-scraper"
+version = "0.1.0"
+description = "login scraper from reddit"
+authors = ["Katya <capkat@bk.ru>"]
+readme = "README.md"
+packages = [{include = "login_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.2"
+playwright = "^1.44.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
